@@ -32,4 +32,6 @@ docker push gcr.io/weeloy-docker-kube/nexus-server:v1
 gcloud container clusters get-credentials nexus
 
 #Deploy and exposed GKE Cluster using Load Balancer
-kubectl create -f docker_deploy.yaml
+#kubectl create -f docker_deploy.yaml
+kubectl create  -f docker_deploy.yaml --dry-run=true -o yaml | kubectl apply -f docker_deploy.yaml
+
