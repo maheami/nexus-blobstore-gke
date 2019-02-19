@@ -1,7 +1,7 @@
 # nexus-blobstore-gke
-Nexus Repo Server with Cloud Storage and Persistence Volume on GKE 
+Nexus Repo Server with Cloud Storage and Persistent Volume on GKE 
 
-This code will help you to create Nexus Repository Manager with Google Cloud Storage and Persistence Volume and deploy it on GKE
+This code will help you to create Nexus Repository Manager with Google Cloud Storage and Persistent Volume and deploy it on GKE
 
 # Prerequisite:
 
